@@ -1,0 +1,9 @@
+c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\bin\Debug\railwaymanagement.exe.config
+c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\bin\Debug\railwaymanagement.exe
+c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\bin\Debug\railwaymanagement.pdb
+c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.csprojResolveAssemblyReference.cache
+c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Form1.resources
+c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Properties.Resources.resources
+c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.csproj.GenerateResource.Cache
+c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.exe
+c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.pdb
