@@ -91,30 +91,99 @@ namespace railwaymanagement
 
         private void insert_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             if (Train.Checked)
             {
-
+                this.Hide();
+                insert_train it = new insert_train();
+                it.ShowDialog();
+                this.Show();
             }
             else if (Station.Checked)
             {
-
+                this.Hide();
+                ins_station st = new ins_station();
+                st.ShowDialog();
+                this.Show();
             }
             else if (Employee.Checked)
             {
-
+                this.Hide();
+                Ins_employee st = new Ins_employee();
+                st.ShowDialog();
+                this.Show();
             }
             else if (Works.Checked)
             {
-
+                this.Hide();
+                Ins_works nwork = new Ins_works();
+                nwork.ShowDialog();
+                this.Show();
             }
             else if (Stops.Checked)
             {
-
+                this.Hide();
+                Ins_stops instop = new Ins_stops();
+                instop.ShowDialog();
+                this.Show();
             }
             else if (Fare.Checked)
             {
+                this.Hide();
+                ins_fare in_fr = new ins_fare();
+                in_fr.ShowDialog();
+                this.Show();
+            }
+        }
 
+        private void logout_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+        }
+
+        private void update_Click(object sender, EventArgs e)
+        {
+            if (Train.Checked)
+            {
+                this.Hide();
+                //update_train it = new update_train();
+                //it.ShowDialog();
+                this.Show();
+            }
+            else if (Station.Checked)
+            {
+                this.Hide();
+                //Update_station st = new Update_station();
+                //st.ShowDialog();
+                this.Show();
+            }
+            else if (Employee.Checked)
+            {
+                this.Hide();
+                Ins_employee st = new Ins_employee();
+                st.ShowDialog();
+                this.Show();
+            }
+            else if (Works.Checked)
+            {
+                this.Hide();
+                Ins_works nwork = new Ins_works();
+                nwork.ShowDialog();
+                this.Show();
+            }
+            else if (Stops.Checked)
+            {
+                this.Hide();
+                Ins_stops instop = new Ins_stops();
+                instop.ShowDialog();
+                this.Show();
+            }
+            else if (Fare.Checked)
+            {
+                this.Hide();
+                ins_fare in_fr = new ins_fare();
+                in_fr.ShowDialog();
+                this.Show();
             }
         }
     }

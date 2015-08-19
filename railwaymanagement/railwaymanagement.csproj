@@ -52,19 +52,73 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="signin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="signin.Designer.cs">
+      <DependentUpon>signin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insert_train.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insert_train.Designer.cs">
+      <DependentUpon>insert_train.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ins_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ins_employee.Designer.cs">
+      <DependentUpon>Ins_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ins_fare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ins_fare.Designer.cs">
+      <DependentUpon>ins_fare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ins_station.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ins_station.Designer.cs">
+      <DependentUpon>ins_station.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ins_stops.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ins_stops.Designer.cs">
+      <DependentUpon>Ins_stops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ins_works.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ins_works.Designer.cs">
+      <DependentUpon>Ins_works.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="signin.resx">
+      <DependentUpon>signin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insert_train.resx">
+      <DependentUpon>insert_train.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ins_employee.resx">
+      <DependentUpon>Ins_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ins_fare.resx">
+      <DependentUpon>ins_fare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ins_station.resx">
+      <DependentUpon>ins_station.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ins_stops.resx">
+      <DependentUpon>Ins_stops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ins_works.resx">
+      <DependentUpon>Ins_works.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

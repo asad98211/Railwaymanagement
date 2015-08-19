@@ -74,6 +74,7 @@
             this.update.TabIndex = 2;
             this.update.Text = "Update";
             this.update.UseVisualStyleBackColor = true;
+            this.update.Click += new System.EventHandler(this.update_Click);
             // 
             // delete
             // 
@@ -92,6 +93,7 @@
             this.logout.TabIndex = 4;
             this.logout.Text = "Log Out";
             this.logout.UseVisualStyleBackColor = true;
+            this.logout.Click += new System.EventHandler(this.logout_Click);
             // 
             // Train
             // 

@@ -7,3 +7,19 @@ c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railw
 c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.csproj.GenerateResource.Cache
 c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.exe
 c:\users\asad98211\documents\visual studio 2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.pdb
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\bin\Debug\railwaymanagement.exe.config
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.exe
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.pdb
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.csprojResolveAssemblyReference.cache
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Admin.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.insert_train.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Properties.Resources.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.csproj.GenerateResource.Cache
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\bin\Debug\railwaymanagement.exe
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\bin\Debug\railwaymanagement.pdb
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.ins_station.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Ins_employee.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Ins_works.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.ins_fare.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Ins_stops.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Sign_in.resources
