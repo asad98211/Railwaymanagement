@@ -23,3 +23,12 @@ C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railw
 C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.ins_fare.resources
 C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Ins_stops.resources
 C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Sign_in.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.update_train.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Update_station.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.update_employee.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Update_works.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.update_stops.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Update_fare.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.delete_train.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Delstation.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Delete_Employee.resources

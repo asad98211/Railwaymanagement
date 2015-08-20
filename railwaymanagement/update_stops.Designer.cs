@@ -1,6 +1,6 @@
 ﻿namespace railwaymanagement
 {
-    partial class Ins_stops
+    partial class update_stops
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ins_stops));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(update_stops));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Back = new System.Windows.Forms.Button();
             this.Train_id = new System.Windows.Forms.TextBox();
-            this.Add = new System.Windows.Forms.Button();
+            this.Update = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.Station_Id = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Platform_no = new System.Windows.Forms.TextBox();
@@ -44,6 +43,7 @@
             this.Arrival_time = new System.Windows.Forms.TextBox();
             this.Departure_time = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.st_id = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -55,9 +55,8 @@
             this.pictureBox2.Location = new System.Drawing.Point(33, 178);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(183, 217);
-            this.pictureBox2.TabIndex = 42;
+            this.pictureBox2.TabIndex = 45;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -65,17 +64,16 @@
             this.pictureBox1.Location = new System.Drawing.Point(20, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(669, 150);
-            this.pictureBox1.TabIndex = 41;
+            this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.st_id);
             this.groupBox1.Controls.Add(this.Back);
             this.groupBox1.Controls.Add(this.Train_id);
-            this.groupBox1.Controls.Add(this.Add);
+            this.groupBox1.Controls.Add(this.Update);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.Station_Id);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.Platform_no);
@@ -86,10 +84,9 @@
             this.groupBox1.Location = new System.Drawing.Point(251, 168);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(453, 233);
-            this.groupBox1.TabIndex = 40;
+            this.groupBox1.TabIndex = 43;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Stops Info";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.groupBox1.Text = "Update Stops Info";
             // 
             // Back
             // 
@@ -107,17 +104,16 @@
             this.Train_id.Name = "Train_id";
             this.Train_id.Size = new System.Drawing.Size(100, 20);
             this.Train_id.TabIndex = 17;
-            this.Train_id.TextChanged += new System.EventHandler(this.Train_id_TextChanged);
             // 
-            // Add
+            // Update
             // 
-            this.Add.Location = new System.Drawing.Point(338, 152);
-            this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(100, 23);
-            this.Add.TabIndex = 24;
-            this.Add.Text = "Add";
-            this.Add.UseVisualStyleBackColor = true;
-            this.Add.Click += new System.EventHandler(this.Add_Click);
+            this.Update.Location = new System.Drawing.Point(338, 152);
+            this.Update.Name = "Update";
+            this.Update.Size = new System.Drawing.Size(100, 23);
+            this.Update.TabIndex = 24;
+            this.Update.Text = "Update";
+            this.Update.UseVisualStyleBackColor = true;
+            this.Update.Click += new System.EventHandler(this.Update_Click);
             // 
             // label1
             // 
@@ -127,16 +123,6 @@
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 14;
             this.label1.Text = "Station_id:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // Station_Id
-            // 
-            this.Station_Id.Location = new System.Drawing.Point(125, 54);
-            this.Station_Id.Name = "Station_Id";
-            this.Station_Id.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.Station_Id.Size = new System.Drawing.Size(100, 20);
-            this.Station_Id.TabIndex = 15;
-            this.Station_Id.TextChanged += new System.EventHandler(this.Station_Id_TextChanged);
             // 
             // label2
             // 
@@ -146,7 +132,6 @@
             this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 16;
             this.label2.Text = "Train_id:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -156,7 +141,6 @@
             this.label3.Size = new System.Drawing.Size(66, 13);
             this.label3.TabIndex = 18;
             this.label3.Text = "Platform_no:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Platform_no
             // 
@@ -164,7 +148,6 @@
             this.Platform_no.Name = "Platform_no";
             this.Platform_no.Size = new System.Drawing.Size(100, 20);
             this.Platform_no.TabIndex = 19;
-            this.Platform_no.TextChanged += new System.EventHandler(this.Platform_no_TextChanged);
             // 
             // label4
             // 
@@ -174,7 +157,6 @@
             this.label4.Size = new System.Drawing.Size(68, 13);
             this.label4.TabIndex = 20;
             this.label4.Text = "Arrival_Time:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Arrival_time
             // 
@@ -182,7 +164,6 @@
             this.Arrival_time.Name = "Arrival_time";
             this.Arrival_time.Size = new System.Drawing.Size(100, 20);
             this.Arrival_time.TabIndex = 21;
-            this.Arrival_time.TextChanged += new System.EventHandler(this.Arrival_time_TextChanged);
             // 
             // Departure_time
             // 
@@ -190,7 +171,6 @@
             this.Departure_time.Name = "Departure_time";
             this.Departure_time.Size = new System.Drawing.Size(100, 20);
             this.Departure_time.TabIndex = 23;
-            this.Departure_time.TextChanged += new System.EventHandler(this.Departure_time_TextChanged);
             // 
             // label5
             // 
@@ -200,9 +180,17 @@
             this.label5.Size = new System.Drawing.Size(86, 13);
             this.label5.TabIndex = 22;
             this.label5.Text = "Departure_Time:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // Ins_stops
+            // st_id
+            // 
+            this.st_id.FormattingEnabled = true;
+            this.st_id.Location = new System.Drawing.Point(125, 57);
+            this.st_id.Name = "st_id";
+            this.st_id.Size = new System.Drawing.Size(100, 21);
+            this.st_id.TabIndex = 35;
+            this.st_id.SelectedIndexChanged += new System.EventHandler(this.st_id_SelectedIndexChanged);
+            // 
+            // update_stops
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -210,8 +198,8 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Ins_stops";
-            this.Text = "Ins_stops";
+            this.Name = "update_stops";
+            this.Text = "update_stops";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -227,15 +215,15 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button Back;
         private System.Windows.Forms.TextBox Train_id;
-        private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.Button Update;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox Station_Id;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox Platform_no;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox Arrival_time;
         private System.Windows.Forms.TextBox Departure_time;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox st_id;
     }
 }

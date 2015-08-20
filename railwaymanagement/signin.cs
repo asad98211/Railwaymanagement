@@ -20,6 +20,8 @@ namespace railwaymanagement
             password.PasswordChar = '*';
             password.MaxLength = 20;
             User_name.MaxLength = 10;
+            User_name.Text = "Admin";
+            password.Text = "shadowmaster";
         }
 
         private void button1_Click(object sender, EventArgs e)

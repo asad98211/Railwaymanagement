@@ -52,6 +52,30 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Delete works.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete works.Designer.cs">
+      <DependentUpon>Delete works.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Employee.Designer.cs">
+      <DependentUpon>Delete_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete_train.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_train.Designer.cs">
+      <DependentUpon>delete_train.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delstation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delstation.Designer.cs">
+      <DependentUpon>Delstation.cs</DependentUpon>
+    </Compile>
     <Compile Include="signin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,8 +120,56 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="update_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_employee.Designer.cs">
+      <DependentUpon>update_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_fare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_fare.Designer.cs">
+      <DependentUpon>Update_fare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_station.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_station.Designer.cs">
+      <DependentUpon>Update_station.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update_stops.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_stops.Designer.cs">
+      <DependentUpon>update_stops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update_train.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_train.Designer.cs">
+      <DependentUpon>update_train.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_works.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_works.Designer.cs">
+      <DependentUpon>Update_works.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete works.resx">
+      <DependentUpon>Delete works.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Employee.resx">
+      <DependentUpon>Delete_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_train.resx">
+      <DependentUpon>delete_train.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delstation.resx">
+      <DependentUpon>Delstation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="signin.resx">
       <DependentUpon>signin.cs</DependentUpon>
@@ -129,6 +201,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="update_employee.resx">
+      <DependentUpon>update_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_fare.resx">
+      <DependentUpon>Update_fare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_station.resx">
+      <DependentUpon>Update_station.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_stops.resx">
+      <DependentUpon>update_stops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_train.resx">
+      <DependentUpon>update_train.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_works.resx">
+      <DependentUpon>Update_works.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
