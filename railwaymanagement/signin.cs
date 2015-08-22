@@ -20,8 +20,8 @@ namespace railwaymanagement
             password.PasswordChar = '*';
             password.MaxLength = 20;
             User_name.MaxLength = 10;
-            User_name.Text = "Admin";
-            password.Text = "shadowmaster";
+            User_name.Text = "sam";
+            password.Text = "bari";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,12 +31,13 @@ namespace railwaymanagement
             SqlDataReader mdreader;
             login.Open();
             mdreader = selectcmd.ExecuteReader();
-            DataTable dt = new DataTable();
-            string master=""; 
+            string master="";
+            int id;
             int flag = 0;
             while (mdreader.Read())
             {
-               master= mdreader.GetString(7);
+                master= mdreader.GetString(6);
+                id = mdreader.GetInt32(0);
                 flag++;
             }
             if (User_name.Text.Equals("Admin") && password.Text.Equals("shadowmaster"))
@@ -51,13 +52,20 @@ namespace railwaymanagement
             }
             else if (flag==1)
             {
-                if (master == "Yes")
+                if (master.Equals("Master"))
                 {
+                    this.Hide();
+                    Station_Master_Panel nw = new Station_Master_Panel();
+                    nw.ShowDialog();
+                    this.Show();
 
                 }
-                else
+                else if(master.Equals("Manager"))
                 {
-
+                    this.Hide();
+                    Manager mg = new Manager();
+                    mg.ShowDialog();
+                    this.Show();
                 }
             }
             else
@@ -74,7 +82,10 @@ namespace railwaymanagement
 
         private void information_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            Information inf = new Information();
+            inf.ShowDialog();
+            this.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

@@ -212,24 +212,18 @@ namespace railwaymanagement
             }
             else if (Works.Checked)
             {
-                this.Hide();
-                Update_works nwork = new Update_works();
-                nwork.ShowDialog();
-                this.Show();
+                MessageBox.Show("If You want to Fire Employee try deleting His info from Employee table Otherwise try Update.");
             }
             else if (Stops.Checked)
             {
                 this.Hide();
-                update_stops instop = new update_stops();
+                deletestops instop = new deletestops();
                 instop.ShowDialog();
                 this.Show();
             }
             else if (Fare.Checked)
             {
-                this.Hide();
-                Update_fare in_fr = new Update_fare();
-                in_fr.ShowDialog();
-                this.Show();
+                MessageBox.Show("You cant Delete Fare info try updating or delete stops info.");
             }
         }
     }

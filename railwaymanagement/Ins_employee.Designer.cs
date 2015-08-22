@@ -32,7 +32,6 @@
             this.Add = new System.Windows.Forms.Button();
             this.salary = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.DOB = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.username = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,9 +46,10 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Back = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.Back = new System.Windows.Forms.Button();
+            this.DOB = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -81,17 +81,10 @@
             this.label5.TabIndex = 22;
             this.label5.Text = "Salary:";
             // 
-            // DOB
-            // 
-            this.DOB.Location = new System.Drawing.Point(319, 33);
-            this.DOB.Name = "DOB";
-            this.DOB.Size = new System.Drawing.Size(100, 20);
-            this.DOB.TabIndex = 21;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(235, 33);
+            this.label4.Location = new System.Drawing.Point(243, 49);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 13);
             this.label4.TabIndex = 20;
@@ -115,7 +108,7 @@
             // 
             // Empname
             // 
-            this.Empname.Location = new System.Drawing.Point(82, 79);
+            this.Empname.Location = new System.Drawing.Point(82, 82);
             this.Empname.Name = "Empname";
             this.Empname.Size = new System.Drawing.Size(100, 20);
             this.Empname.TabIndex = 17;
@@ -123,7 +116,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 79);
+            this.label2.Location = new System.Drawing.Point(18, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 16;
@@ -131,7 +124,7 @@
             // 
             // Emp_Id
             // 
-            this.Emp_Id.Location = new System.Drawing.Point(82, 30);
+            this.Emp_Id.Location = new System.Drawing.Point(82, 42);
             this.Emp_Id.Name = "Emp_Id";
             this.Emp_Id.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.Emp_Id.Size = new System.Drawing.Size(100, 20);
@@ -140,7 +133,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 33);
+            this.label1.Location = new System.Drawing.Point(22, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 13);
             this.label1.TabIndex = 14;
@@ -203,6 +196,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.DOB);
             this.groupBox1.Controls.Add(this.Back);
             this.groupBox1.Controls.Add(this.Empname);
             this.groupBox1.Controls.Add(this.Add);
@@ -218,7 +212,6 @@
             this.groupBox1.Controls.Add(this.username);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.DOB);
             this.groupBox1.Controls.Add(this.salary);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Location = new System.Drawing.Point(260, 168);
@@ -228,24 +221,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Employee Info";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(29, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(669, 150);
-            this.pictureBox1.TabIndex = 35;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(42, 178);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(183, 217);
-            this.pictureBox2.TabIndex = 36;
-            this.pictureBox2.TabStop = false;
             // 
             // Back
             // 
@@ -257,6 +232,34 @@
             this.Back.UseVisualStyleBackColor = true;
             this.Back.Click += new System.EventHandler(this.Back_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(29, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(669, 150);
+            this.pictureBox1.TabIndex = 35;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(42, 178);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(183, 217);
+            this.pictureBox2.TabIndex = 36;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // DOB
+            // 
+            this.DOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.DOB.Location = new System.Drawing.Point(323, 45);
+            this.DOB.Name = "DOB";
+            this.DOB.Size = new System.Drawing.Size(100, 20);
+            this.DOB.TabIndex = 35;
+            // 
             // Ins_employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -267,6 +270,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Ins_employee";
             this.Text = "Ins_employee";
+            this.Load += new System.EventHandler(this.Ins_employee_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -279,7 +283,6 @@
         private System.Windows.Forms.Button Add;
         private System.Windows.Forms.TextBox salary;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox DOB;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox username;
         private System.Windows.Forms.Label label3;
@@ -297,5 +300,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button Back;
+        private System.Windows.Forms.DateTimePicker DOB;
     }
 }

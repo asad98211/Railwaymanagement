@@ -134,6 +134,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Sign_in";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Welcome to Bangladesh Railway";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

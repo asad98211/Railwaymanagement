@@ -59,6 +59,7 @@
             this.Data.Name = "Data";
             this.Data.Size = new System.Drawing.Size(121, 20);
             this.Data.TabIndex = 22;
+            this.Data.TextChanged += new System.EventHandler(this.Data_TextChanged);
             // 
             // Delete
             // 

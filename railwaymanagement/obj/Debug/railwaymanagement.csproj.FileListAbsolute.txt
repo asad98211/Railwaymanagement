@@ -32,3 +32,10 @@ C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railw
 C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.delete_train.resources
 C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Delstation.resources
 C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Delete_Employee.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.deletestops.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Station_Master_Panel.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Cancel_Train.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Manager.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Book_Ticket.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.Information.resources
+C:\Users\Asad98211\Documents\Visual_Studio_2015\Projects\railwaymanagement\railwaymanagement\obj\Debug\railwaymanagement.demo.resources
